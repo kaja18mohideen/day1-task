@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Added to make the image positioning relative to the .resume div */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .section-content {
+            margin-left: 20px;
+        }
+
+        .contact {
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        .education, .experience {
+            margin-top: 20px;
+        }
+
+        .education-item, .experience-item {
+            margin: 10px 0;
+        }
+
+        .education-item h3, .experience-item h3 {
+            margin: 0;
+        }
+
+        /* Style for the profile picture */
+        .profile-image {
+            position: absolute;
+            top: 20px; /* Adjust the top and right values to position the image as desired */
+            right: 20px;
+            width: 100px; /* Adjust the width of the image as needed */
+            border: 2px solid #333;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- Insert the profile picture here -->
+        <img src="PHOTO.jpg" alt="Profile Image" class="profile-image">
+
+        <h1>KAJA MOHIDEEN</h1>
+
+        <div class="contact">
+            <p>Email:kajae@email.com</p>
+            <p>Phone: 6646464646</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/kaja" target="_blank"></a></p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <div class="section-content">
+                I am a highly motivated and organized individual with a passion for web development. I have experience in front-end and back-end technologies and am eager to contribute to exciting projects.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="section-content">
+                <div class="education-item">
+                    <h3>Bachelor in electronics and communication engg</h3>
+                    <p>ANNA University, chennai , tamil Nadu</p>
+                    <p>Graduated: march 2022</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Work Experience</div>
+            <div class="section-content">
+                <div class="experience-item">
+                    <h3>Web Developer</h3>
+                    <p>ABC Company, chennai</p>
+                    <p>January 2022 - Present</p>
+                    <ul>
+                        <li>Designed and developed responsive websites using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality web solutions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
